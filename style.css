@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.secao-limitada{
+    max-width: 1024px;
+    margin: auto;
+    text-align: center;
+}
+header{
+    background-color: rgb(34, 238, 238);
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topo img{
+    width: 100px;
+}
+.topo a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.topo a:hover{
+    color: black;
+}
+.banner{
+    background-image: url(assets/recepcao.png);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner div{
+    width: 1024px;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    align-items: start;
+}
+.banner div h1{
+    font-size: 36px;
+    color: white;
+    font-weight: normal;
+}
